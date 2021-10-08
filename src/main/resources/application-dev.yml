@@ -1,0 +1,14 @@
+spring:
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/loja
+    username: root
+    password: 
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties.hibernate.show_sql: true
+    properties.hibernate.format_sql: true
+ 
+
